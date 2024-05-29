@@ -1,0 +1,12 @@
+string = "15"
+num = 7
+string_number = int(string)
+sum= num + string_number
+print("the sum of both the numbers is: ", sum)
+
+
+# implicit typeCasting
+
+x = 1.653
+y = 5
+print(x + y)
