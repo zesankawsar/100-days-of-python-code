@@ -1,0 +1,13 @@
+a = "kawsar"
+frind = """ankon
+hi kawsar
+"i want to eat a apple """ 
+print("hello, " + a + frind)
+st = """hjaejkjai]jni]adeadrtrtjkgkrtjn sdaeaael,rtlkrtefdfaldfaklfdlfkd"""
+print(st)
+print(a[0])
+print(frind[1])
+print(frind[2])
+print(frind[3])
+for character in a:
+    print(character)
