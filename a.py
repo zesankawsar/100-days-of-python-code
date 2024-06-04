@@ -1,0 +1,5 @@
+a = int(input("whats time now:"))
+if(a<23):
+    print("Good Morning Sir")
+else:
+    print("Good Night Sir")
