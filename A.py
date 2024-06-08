@@ -1,0 +1,11 @@
+for n in range(12231):
+    print("5 X", n, "=", 5 *n)
+    if(n == 9):
+        print("skip the iteration")
+        break
+n = 0
+while True:
+    print(n)
+    n = n+1    
+    if(n%11 == 0):
+        break
