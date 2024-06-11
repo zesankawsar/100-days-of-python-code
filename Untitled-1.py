@@ -1,0 +1,8 @@
+def  avarage(a=2, b=2):
+  print("The avarage is ", (a+b)/3)     
+avarage(b=31)
+
+def names(jakula, name = "Ankon", fahim=
+"<,Forhad madarchod"):
+    print("hello,", jakula, name, fahim )
+    names("jack")
