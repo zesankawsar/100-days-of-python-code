@@ -1,0 +1,13 @@
+l = [1,3,2,5,6,2,1,]
+print(l.append(232))
+print(l.sort())
+print(l.index(5))
+print(l.count(5))
+m = l
+m[1] = 0
+print(l)
+l.insert(3, 999)
+print(l)
+a = [9000, 3100,443944398493804938098043894890890 ]
+l.extend(a)
+print(l)
