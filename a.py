@@ -1,9 +1,10 @@
-Roll = {
-    7:'kawsar',
-    50:"Dip",
-    52:'ankon'
-}
-Roll = input(f"roll of class 7:{Roll}")
-print(Roll[50])
-print(Roll.keys())
-print(Roll.items())
+for i in range(6):
+    print(i)
+    if i == 4:
+        break
+    print("sorry no i")
+for x in range(5):
+        print ("iteration no {} in for loop".format(x+1))
+else:
+    print("else block in loop")
+print("out of loop")    
