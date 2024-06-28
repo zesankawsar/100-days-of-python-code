@@ -1,10 +1,12 @@
-a = input("Enter the number:")
-print(f"multypication table of {a} is")
-try:
-    for i in range(1, 11):
-        print(f"{int(a)} X {i} = {int(a*i)}")
-except ValueError:
-    print("error 404 not found")
-
-
-print("End of program")
+def fun1():
+    try:
+        l = [1, 22, 72, 871, 17, 817]
+        i = int(input("Enter the index"))
+        print(l)
+        print(i)
+    except:
+        print("something wrong")
+    finally:
+        print("iam always executed")
+x = fun1
+print(x)
